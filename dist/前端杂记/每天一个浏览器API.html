@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>每天一个浏览器的API | 个人主页</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    
+    <meta name="description" content="学习总结">
+    
+    <link rel="preload" href="/assets/css/0.styles.d61d7785.css" as="style"><link rel="preload" href="/assets/js/app.a6319c82.js" as="script"><link rel="preload" href="/assets/js/2.32b4f8de.js" as="script"><link rel="preload" href="/assets/js/32.6f984b20.js" as="script"><link rel="prefetch" href="/assets/js/10.e6cdc680.js"><link rel="prefetch" href="/assets/js/100.7cb870ce.js"><link rel="prefetch" href="/assets/js/101.dae61836.js"><link rel="prefetch" href="/assets/js/102.78465489.js"><link rel="prefetch" href="/assets/js/103.73b19d4b.js"><link rel="prefetch" href="/assets/js/104.3352cbff.js"><link rel="prefetch" href="/assets/js/105.376896af.js"><link rel="prefetch" href="/assets/js/106.04efd29c.js"><link rel="prefetch" href="/assets/js/107.01965d57.js"><link rel="prefetch" href="/assets/js/108.0b5ff5fd.js"><link rel="prefetch" href="/assets/js/109.69bd41aa.js"><link rel="prefetch" href="/assets/js/11.2c64db76.js"><link rel="prefetch" href="/assets/js/110.9d3426d1.js"><link rel="prefetch" href="/assets/js/111.7132a3b3.js"><link rel="prefetch" href="/assets/js/112.b5c69b85.js"><link rel="prefetch" href="/assets/js/113.1e51efc4.js"><link rel="prefetch" href="/assets/js/114.c393573b.js"><link rel="prefetch" href="/assets/js/115.6d892a14.js"><link rel="prefetch" href="/assets/js/116.388b6291.js"><link rel="prefetch" href="/assets/js/117.2572614d.js"><link rel="prefetch" href="/assets/js/118.bfa97115.js"><link rel="prefetch" href="/assets/js/119.6f3553d9.js"><link rel="prefetch" href="/assets/js/12.94a0c864.js"><link rel="prefetch" href="/assets/js/120.5833ff13.js"><link rel="prefetch" href="/assets/js/121.9afc513f.js"><link rel="prefetch" href="/assets/js/122.b1798e35.js"><link rel="prefetch" href="/assets/js/123.1388f4ed.js"><link rel="prefetch" href="/assets/js/124.5faa12b2.js"><link rel="prefetch" href="/assets/js/125.dda029c6.js"><link rel="prefetch" href="/assets/js/126.01846dd8.js"><link rel="prefetch" href="/assets/js/127.4452f08b.js"><link rel="prefetch" href="/assets/js/128.fc9974c4.js"><link rel="prefetch" href="/assets/js/129.879851df.js"><link rel="prefetch" href="/assets/js/13.c15f7eee.js"><link rel="prefetch" href="/assets/js/130.b18bae91.js"><link rel="prefetch" href="/assets/js/131.6bf951f3.js"><link rel="prefetch" href="/assets/js/132.ba1447bf.js"><link rel="prefetch" href="/assets/js/133.f3cf482f.js"><link rel="prefetch" href="/assets/js/134.a7f9d276.js"><link rel="prefetch" href="/assets/js/135.c5711373.js"><link rel="prefetch" href="/assets/js/136.17877c2e.js"><link rel="prefetch" href="/assets/js/137.c500801a.js"><link rel="prefetch" href="/assets/js/138.94e0eb60.js"><link rel="prefetch" href="/assets/js/139.848ea0dd.js"><link rel="prefetch" href="/assets/js/14.e95e7183.js"><link rel="prefetch" href="/assets/js/140.a23e12c0.js"><link rel="prefetch" href="/assets/js/141.11b60c34.js"><link rel="prefetch" href="/assets/js/142.50938741.js"><link rel="prefetch" href="/assets/js/143.26dfcd9e.js"><link rel="prefetch" href="/assets/js/144.e7f47e00.js"><link rel="prefetch" href="/assets/js/145.e94f18d8.js"><link rel="prefetch" href="/assets/js/146.fa956501.js"><link rel="prefetch" href="/assets/js/147.20ef4693.js"><link rel="prefetch" href="/assets/js/148.47047248.js"><link rel="prefetch" href="/assets/js/149.273a6d22.js"><link rel="prefetch" href="/assets/js/15.6a8d2980.js"><link rel="prefetch" href="/assets/js/150.78b24e2a.js"><link rel="prefetch" href="/assets/js/16.a73347db.js"><link rel="prefetch" href="/assets/js/17.1fed3083.js"><link rel="prefetch" href="/assets/js/18.89432a01.js"><link rel="prefetch" href="/assets/js/19.ab4be550.js"><link rel="prefetch" href="/assets/js/20.a3ffc242.js"><link rel="prefetch" href="/assets/js/21.c9e2b772.js"><link rel="prefetch" href="/assets/js/22.24933ab9.js"><link rel="prefetch" href="/assets/js/23.e12a523b.js"><link rel="prefetch" href="/assets/js/24.20ddc420.js"><link rel="prefetch" href="/assets/js/25.a6da7d87.js"><link rel="prefetch" href="/assets/js/26.a9d704d0.js"><link rel="prefetch" href="/assets/js/27.bcc8207e.js"><link rel="prefetch" href="/assets/js/28.d34b0b94.js"><link rel="prefetch" href="/assets/js/29.f64a3b0d.js"><link rel="prefetch" href="/assets/js/3.2ead2ac8.js"><link rel="prefetch" href="/assets/js/30.c58fb139.js"><link rel="prefetch" href="/assets/js/31.5176cbd6.js"><link rel="prefetch" href="/assets/js/33.c52cc243.js"><link rel="prefetch" href="/assets/js/34.2301950a.js"><link rel="prefetch" href="/assets/js/35.59aff13a.js"><link rel="prefetch" href="/assets/js/36.be44a88b.js"><link rel="prefetch" href="/assets/js/37.51541bfb.js"><link rel="prefetch" href="/assets/js/38.34322281.js"><link rel="prefetch" href="/assets/js/39.778a9ac9.js"><link rel="prefetch" href="/assets/js/4.3fad1089.js"><link rel="prefetch" href="/assets/js/40.065f1d7f.js"><link rel="prefetch" href="/assets/js/41.c1df89aa.js"><link rel="prefetch" href="/assets/js/42.e28f3958.js"><link rel="prefetch" href="/assets/js/43.d1a4e2f5.js"><link rel="prefetch" href="/assets/js/44.07946160.js"><link rel="prefetch" href="/assets/js/45.261db7c1.js"><link rel="prefetch" href="/assets/js/46.68dd7ebc.js"><link rel="prefetch" href="/assets/js/47.6ddba031.js"><link rel="prefetch" href="/assets/js/48.a44dd332.js"><link rel="prefetch" href="/assets/js/49.150ce179.js"><link rel="prefetch" href="/assets/js/5.ef50e827.js"><link rel="prefetch" href="/assets/js/50.9093ca4f.js"><link rel="prefetch" href="/assets/js/51.615783a4.js"><link rel="prefetch" href="/assets/js/52.d8b9be33.js"><link rel="prefetch" href="/assets/js/53.1ff35abe.js"><link rel="prefetch" href="/assets/js/54.e94bfbfd.js"><link rel="prefetch" href="/assets/js/55.83bc9e19.js"><link rel="prefetch" href="/assets/js/56.4101382f.js"><link rel="prefetch" href="/assets/js/57.bf454b42.js"><link rel="prefetch" href="/assets/js/58.2636e755.js"><link rel="prefetch" href="/assets/js/59.2484001e.js"><link rel="prefetch" href="/assets/js/6.f2ff6c63.js"><link rel="prefetch" href="/assets/js/60.4d7205f6.js"><link rel="prefetch" href="/assets/js/61.b848f071.js"><link rel="prefetch" href="/assets/js/62.00f5fced.js"><link rel="prefetch" href="/assets/js/63.4035cbde.js"><link rel="prefetch" href="/assets/js/64.4acbf790.js"><link rel="prefetch" href="/assets/js/65.65f64452.js"><link rel="prefetch" href="/assets/js/66.9606b3e3.js"><link rel="prefetch" href="/assets/js/67.3a317ae6.js"><link rel="prefetch" href="/assets/js/68.2374ba12.js"><link rel="prefetch" href="/assets/js/69.085e0cc7.js"><link rel="prefetch" href="/assets/js/7.8b9b7a91.js"><link rel="prefetch" href="/assets/js/70.a65f45fa.js"><link rel="prefetch" href="/assets/js/71.59fba7c8.js"><link rel="prefetch" href="/assets/js/72.c2925a6a.js"><link rel="prefetch" href="/assets/js/73.b340a03e.js"><link rel="prefetch" href="/assets/js/74.c4c3f65c.js"><link rel="prefetch" href="/assets/js/75.3ab8205c.js"><link rel="prefetch" href="/assets/js/76.878e916a.js"><link rel="prefetch" href="/assets/js/77.4327b629.js"><link rel="prefetch" href="/assets/js/78.ea674f9e.js"><link rel="prefetch" href="/assets/js/79.1d9f4ab3.js"><link rel="prefetch" href="/assets/js/8.a70b9b8f.js"><link rel="prefetch" href="/assets/js/80.3936f401.js"><link rel="prefetch" href="/assets/js/81.45fd6a95.js"><link rel="prefetch" href="/assets/js/82.ce48eb4d.js"><link rel="prefetch" href="/assets/js/83.15f2e7cb.js"><link rel="prefetch" href="/assets/js/84.fbb6f3b6.js"><link rel="prefetch" href="/assets/js/85.230d4496.js"><link rel="prefetch" href="/assets/js/86.632513d4.js"><link rel="prefetch" href="/assets/js/87.5c1d4ec8.js"><link rel="prefetch" href="/assets/js/88.96beca6c.js"><link rel="prefetch" href="/assets/js/89.c9f1ec20.js"><link rel="prefetch" href="/assets/js/9.5fe5c710.js"><link rel="prefetch" href="/assets/js/90.a8dc4c84.js"><link rel="prefetch" href="/assets/js/91.9f5451d4.js"><link rel="prefetch" href="/assets/js/92.4257589f.js"><link rel="prefetch" href="/assets/js/93.25c57580.js"><link rel="prefetch" href="/assets/js/94.8d85d934.js"><link rel="prefetch" href="/assets/js/95.abe2f5b4.js"><link rel="prefetch" href="/assets/js/96.fef0c8f2.js"><link rel="prefetch" href="/assets/js/97.d192dbc6.js"><link rel="prefetch" href="/assets/js/98.a7f643e6.js"><link rel="prefetch" href="/assets/js/99.69afcc55.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.d61d7785.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="../assets/logo.png" alt="个人主页" class="logo"> <span class="site-name can-hide">个人主页</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/react/" class="nav-link">
+  react
+</a></div><div class="nav-item"><a href="/vue/" class="nav-link">
+  vue
+</a></div><div class="nav-item"><a href="/error.html" class="nav-link">
+  附录：错误码
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/react/" class="nav-link">
+  react
+</a></div><div class="nav-item"><a href="/vue/" class="nav-link">
+  vue
+</a></div><div class="nav-item"><a href="/error.html" class="nav-link">
+  附录：错误码
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>文档介绍</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>react</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>vue</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>前端杂记</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/%E5%89%8D%E7%AB%AF%E6%9D%82%E8%AE%B0/" aria-current="page" class="sidebar-link">不分类的前端相关知识点</a></li><li><a href="/前端杂记/angularJs脏值检查的原理.html" class="sidebar-link">angularjs脏值检查的原理</a></li><li><a href="/前端杂记/axios取消重复请求.html" class="sidebar-link">axios取消重复请求</a></li><li><a href="/前端杂记/base64的实现原理.html" class="sidebar-link">base64的实现原理</a></li><li><a href="/前端杂记/css不常用样式技巧汇总.html" class="sidebar-link">css不常用样式技巧汇总</a></li><li><a href="/前端杂记/document滚动相关的取值属性.html" class="sidebar-link">document滚动相关的取值属性</a></li><li><a href="/前端杂记/jsBridge.html" class="sidebar-link">jsBridge</a></li><li><a href="/前端杂记/nodemon的原理.html" class="sidebar-link">nodemon的原理</a></li><li><a href="/前端杂记/web_component.html" class="sidebar-link">web_component</a></li><li><a href="/前端杂记/关于mac的bash, zsh.html" class="sidebar-link">mac的bash_profile, zsh</a></li><li><a href="/前端杂记/关于meta的几点.html" class="sidebar-link">关于meta的几点</a></li><li><a href="/前端杂记/前端下载文件.html" class="sidebar-link">前端文件下载</a></li><li><a href="/前端杂记/前端实现超大文件上传.html" class="sidebar-link">前端实现大文件上传</a></li><li><a href="/前端杂记/前端引入第三js实践总结.html" class="sidebar-link">前端引入通过script引入js的几种方式</a></li><li><a href="/前端杂记/在线文件预览.html" class="sidebar-link">在线文件预览</a></li><li><a href="/前端杂记/域名的设置.html" class="sidebar-link">域名的设置</a></li><li><a href="/前端杂记/如何获取localStorage已使用空间，以及最大存储空间.html" class="sidebar-link">如何获取localStorage已使用空间，以及最大存储空间</a></li><li><a href="/前端杂记/搭建环境react,webapck,typescript.html" class="sidebar-link">搭建环境react,webapck,typescript问题</a></li><li><a href="/前端杂记/每天一个浏览器API.html" class="active sidebar-link">每天一个浏览器的API</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/前端杂记/每天一个浏览器API.html#window-getselection" class="sidebar-link">window.getSelection</a></li><li class="sidebar-sub-header"><a href="/前端杂记/每天一个浏览器API.html#text-splittext" class="sidebar-link">Text.splitText()</a></li><li class="sidebar-sub-header"><a href="/前端杂记/每天一个浏览器API.html#event-target-closet" class="sidebar-link">event.target.closet</a></li><li class="sidebar-sub-header"><a href="/前端杂记/每天一个浏览器API.html#window-speechsynthesis-speechsynthesisutterance" class="sidebar-link">Window.speechSynthesis | SpeechSynthesisUtterance</a></li><li class="sidebar-sub-header"><a href="/前端杂记/每天一个浏览器API.html#blob" class="sidebar-link">Blob</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/前端杂记/每天一个浏览器API.html#blob构造函数" class="sidebar-link">Blob构造函数</a></li><li class="sidebar-sub-header"><a href="/前端杂记/每天一个浏览器API.html#属性" class="sidebar-link">属性</a></li><li class="sidebar-sub-header"><a href="/前端杂记/每天一个浏览器API.html#blob数据的读取" class="sidebar-link">Blob数据的读取</a></li><li class="sidebar-sub-header"><a href="/前端杂记/每天一个浏览器API.html#bloburl" class="sidebar-link">BlobURL</a></li><li class="sidebar-sub-header"><a href="/前端杂记/每天一个浏览器API.html#dataurl" class="sidebar-link">dataURL</a></li></ul></li><li class="sidebar-sub-header"><a href="/前端杂记/每天一个浏览器API.html#deviceorientation与devicemotion" class="sidebar-link">DeviceOrientation与devicemotion</a></li></ul></li><li><a href="/前端杂记/疑难杂症的bug.html" class="sidebar-link">关于ios10.3.3的问题记录：cannot declare a let variable twice 'n'</a></li><li><a href="/前端杂记/虚拟dom，以及diff的理解.html" class="sidebar-link">虚拟dom，以及diff的理解</a></li><li><a href="/前端杂记/页面影藏元素的方式.html" class="sidebar-link">页面隐藏元素的方式</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>js</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>构建工具篇-webpack等</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>flutter</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>H5开发汇总</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>web 安全</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>http 协议</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>node相关</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>pwa</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>浏览器原理&amp;性能优化</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>git</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>前端工程化</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>babel</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>3D探索</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="每天一个浏览器的api"><a href="#每天一个浏览器的api" class="header-anchor">#</a> 每天一个浏览器的API</h1> <h2 id="window-getselection"><a href="#window-getselection" class="header-anchor">#</a> window.getSelection</h2> <blockquote><p>返回一个section对象，表示用户选择的文本范围或光标的当前位置</p></blockquote> <div class="language- extra-class"><pre class="language-text"><code>var selection = window.getSelection();
+var selContent = selection.getRangeAt(0);
+var range1= selContent.getRangeAt(0);
+console.log(range1.startContainer);
+</code></pre></div><p><a href="https://blog.csdn.net/weixin_42420703/article/details/84892528" target="_blank" rel="noopener noreferrer">关于window.getSelection<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p> <h2 id="text-splittext"><a href="#text-splittext" class="header-anchor">#</a> Text.splitText()</h2> <blockquote><p>splitText() 方法按照指定的 offset 把文本节点分割为两个节点</p></blockquote> <h2 id="event-target-closet"><a href="#event-target-closet" class="header-anchor">#</a> event.target.closet</h2> <blockquote><p>遍历元素和他的父级别元素，至到返回目的元素</p></blockquote> <div class="language- extra-class"><pre class="language-text"><code>&lt;article&gt;
+  &lt;div id=&quot;div-01&quot;&gt;Here is div-01
+    &lt;div id=&quot;div-02&quot;&gt;Here is div-02
+      &lt;div id=&quot;div-03&quot;&gt;Here is div-03&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/article&gt;
+
+var el = document.getElementById('div-03');
+
+var r1 = el.closest(&quot;#div-02&quot;);
+// returns the element with the id=div-02
+
+var r2 = el.closest(&quot;div div&quot;);
+// returns the closest ancestor which is a div in div, here it is the div-03 itself
+
+var r3 = el.closest(&quot;article &gt; div&quot;);
+// returns the closest ancestor which is a div and has a parent article, here it is the div-01
+
+var r4 = el.closest(&quot;:not(div)&quot;);
+</code></pre></div><h2 id="window-speechsynthesis-speechsynthesisutterance"><a href="#window-speechsynthesis-speechsynthesisutterance" class="header-anchor">#</a> Window.speechSynthesis | SpeechSynthesisUtterance</h2> <blockquote><p>语音api</p></blockquote> <div class="language- extra-class"><pre class="language-text"><code>// speechSynthesis.getVoices() 可以获取浏览器支持的语音
+var u = new SpeechSynthesisUtterance();
+u.text = &quot;文字播放&quot;;
+u.lang = 'zh-HK'; // ja-JP 
+u.rate = 8
+speechSynthesis.speak(u);
+</code></pre></div><p>https://github.com/mdn/web-speech-api/</p> <h2 id="blob"><a href="#blob" class="header-anchor">#</a> Blob</h2> <blockquote><p>表示一个不可变，原始数据的类文件对象；它的数据可以按文本或二进制的格式进行读取，也可以转换成 ReadableStream 来用于数据操作。</p></blockquote> <h3 id="blob构造函数"><a href="#blob构造函数" class="header-anchor">#</a> Blob构造函数</h3> <div class="language- extra-class"><pre class="language-text"><code>new Blob(blobParts, options)
+</code></pre></div><ul><li>blobParts</li></ul> <p>可以是任意多个_ArrayBuffer, ArrayBufferView, Blob或者DOMString</p> <ul><li>options</li></ul> <p>可选项，用于设置blob对象的属性</p> <h3 id="属性"><a href="#属性" class="header-anchor">#</a> 属性</h3> <ul><li>Blob.size: blob对象中包含的数据大小</li> <li>Blob.type: 表明该Blob对象所含数据的类型</li></ul> <h3 id="blob数据的读取"><a href="#blob数据的读取" class="header-anchor">#</a> Blob数据的读取</h3> <ul><li>使用FileReader</li></ul> <div class="language- extra-class"><pre class="language-text"><code>readBlobContent() {
+  const blob = new Blob(['&lt;xml&gt;fo&lt;/xml&gt;'], {type: 'text/xml'});
+  const reader = new FileReader();
+  reader.readAsText(blob); // &lt;xml&gt;foo&lt;/xml&gt;
+  //reader.readAsArrayBuffer(blob); // ArrayBuffer(14) {}
+  // reader.readAsDataURL(blob);
+}
+</code></pre></div><ul><li>使用Response对象将Blob中的内容读取为文本</li></ul> <div class="language- extra-class"><pre class="language-text"><code>let text = await (new Response(blob)).text();
+</code></pre></div><h3 id="bloburl"><a href="#bloburl" class="header-anchor">#</a> BlobURL</h3> <blockquote><p>是一种伪协议， 只能有浏览器在内部生成；可以把blob和file转化成url生成BlobURL来展示图像，下载二进制数据链接的URL</p></blockquote> <h4 id="展示一张图片"><a href="#展示一张图片" class="header-anchor">#</a> 展示一张图片</h4> <ul><li>demo: 直接将将一张图片展示在页面上</li></ul> <div class="language- extra-class"><pre class="language-text"><code>  &lt;div id=&quot;area&quot;&gt;
+      &lt;input type=&quot;file&quot; multiple id=&quot;f&quot; @change=&quot;createBlobUrl&quot;/&gt;
+  &lt;/div&gt;
+
+  // create blobURL
+  getObjectUrl(file) {
+    let url = null;
+    if (window.createObjectURL) {
+        url = window.createObjectURL(file);
+    } else if (window.URL) {
+      url = window.URL.createObjectURL(file);
+    } else if (window.webkitURL) {
+      url = window.webkitURL.createObjectURL(file);
+    }
+    return url;
+  },
+  createBlobUrl(event) {
+    const ele = document.getElementById('f');
+    const content = document.getElementById('area');
+    const files = event.target.files;
+    const file = files[0];
+    const img = document.createElement('img');
+    img.src = this.getObjectUrl(file);
+    content.appendChild(img);
+  }
+</code></pre></div><p>操作之后可以发现这个链接不是一个普通的img链接, 这种方式类似于base64的形式</p> <p><img src="/assets/img/blob_url.8915d608.png" alt="avatar"></p> <p><strong>如果使用dataURL的形式如何展示呢？</strong></p> <div class="language- extra-class"><pre class="language-text"><code>createDataUrl(event) {
+  const ele = document.getElementById('f');
+  const content = document.getElementById('area');
+  const files = event.target.files;
+  const file = files[0];
+  const img = document.createElement('img');
+  const reader = new FileReader();
+  reader.onload = () =&gt; {
+    img.src = reader.result;
+  };
+  reader.readAsDataURL(file);
+  content.appendChild(img);
+}
+</code></pre></div><h4 id="下载一个文件"><a href="#下载一个文件" class="header-anchor">#</a> 下载一个文件</h4> <ul><li>blobURL</li></ul> <div class="language- extra-class"><pre class="language-text"><code>downloadFun() {
+  const fileName = 'download.txt';
+  const blob = new Blob(['test data'], { type: 'text/plain' });
+  const link = document.createElement('a');
+  link.href = this.getObjectUrl(blob);
+  link.download = fileName;
+  link.click();
+  link.remove();
+  URL.revokeObjectURL(link.href);
+}
+</code></pre></div><ul><li>dataURL</li></ul> <div class="language- extra-class"><pre class="language-text"><code>downloadFun() {
+  const fileName = 'download.txt';
+  const blob = new Blob(['test data'], { type: 'text/plain' });
+  const reader = new FileReader();
+  const link = document.createElement('a');
+  link.download = fileName;
+  reader.onload = () =&gt; {
+    link.href = reader.result;
+    link.click();
+  };
+  reader.readAsDataURL(blob);
+}
+</code></pre></div><h3 id="dataurl"><a href="#dataurl" class="header-anchor">#</a> dataURL</h3> <blockquote><p>将较小的文件嵌入到文档中, 语法格式，data:mediatype[;base64],data</p></blockquote> <p><strong>获取dataUrl</strong></p> <ul><li>FileReader的readAsDataURL</li> <li>原生的编码方法btoa, 解码atob</li> <li>canvas的toDateURL</li></ul> <h4 id="dataurl-bloburl的区别"><a href="#dataurl-bloburl的区别" class="header-anchor">#</a> dataURL &amp; blobURL的区别</h4> <ul><li>BlobUrl较短，它并不代表数据本身，数据存储在浏览器中，BlobUrl只是访问它的key; 但DataUrl因为直接存储图片base64编码后的数据</li></ul> <h2 id="deviceorientation与devicemotion"><a href="#deviceorientation与devicemotion" class="header-anchor">#</a> DeviceOrientation与devicemotion</h2></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">8/26/2021, 7:45:06 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/前端杂记/搭建环境react,webapck,typescript.html" class="prev">
+        搭建环境react,webapck,typescript问题
+      </a></span> <span class="next"><a href="/前端杂记/疑难杂症的bug.html">
+        关于ios10.3.3的问题记录：cannot declare a let variable twice 'n'
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/assets/js/app.a6319c82.js" defer></script><script src="/assets/js/2.32b4f8de.js" defer></script><script src="/assets/js/32.6f984b20.js" defer></script>
+  </body>
+</html>

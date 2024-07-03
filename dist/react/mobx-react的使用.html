@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>mob-react的使用 | 个人主页</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    
+    <meta name="description" content="学习总结">
+    
+    <link rel="preload" href="/assets/css/0.styles.d61d7785.css" as="style"><link rel="preload" href="/assets/js/app.a6319c82.js" as="script"><link rel="preload" href="/assets/js/2.32b4f8de.js" as="script"><link rel="preload" href="/assets/js/75.3ab8205c.js" as="script"><link rel="prefetch" href="/assets/js/10.e6cdc680.js"><link rel="prefetch" href="/assets/js/100.7cb870ce.js"><link rel="prefetch" href="/assets/js/101.dae61836.js"><link rel="prefetch" href="/assets/js/102.78465489.js"><link rel="prefetch" href="/assets/js/103.73b19d4b.js"><link rel="prefetch" href="/assets/js/104.3352cbff.js"><link rel="prefetch" href="/assets/js/105.376896af.js"><link rel="prefetch" href="/assets/js/106.04efd29c.js"><link rel="prefetch" href="/assets/js/107.01965d57.js"><link rel="prefetch" href="/assets/js/108.0b5ff5fd.js"><link rel="prefetch" href="/assets/js/109.69bd41aa.js"><link rel="prefetch" href="/assets/js/11.2c64db76.js"><link rel="prefetch" href="/assets/js/110.9d3426d1.js"><link rel="prefetch" href="/assets/js/111.7132a3b3.js"><link rel="prefetch" href="/assets/js/112.b5c69b85.js"><link rel="prefetch" href="/assets/js/113.1e51efc4.js"><link rel="prefetch" href="/assets/js/114.c393573b.js"><link rel="prefetch" href="/assets/js/115.6d892a14.js"><link rel="prefetch" href="/assets/js/116.388b6291.js"><link rel="prefetch" href="/assets/js/117.2572614d.js"><link rel="prefetch" href="/assets/js/118.bfa97115.js"><link rel="prefetch" href="/assets/js/119.6f3553d9.js"><link rel="prefetch" href="/assets/js/12.94a0c864.js"><link rel="prefetch" href="/assets/js/120.5833ff13.js"><link rel="prefetch" href="/assets/js/121.9afc513f.js"><link rel="prefetch" href="/assets/js/122.b1798e35.js"><link rel="prefetch" href="/assets/js/123.1388f4ed.js"><link rel="prefetch" href="/assets/js/124.5faa12b2.js"><link rel="prefetch" href="/assets/js/125.dda029c6.js"><link rel="prefetch" href="/assets/js/126.01846dd8.js"><link rel="prefetch" href="/assets/js/127.4452f08b.js"><link rel="prefetch" href="/assets/js/128.fc9974c4.js"><link rel="prefetch" href="/assets/js/129.879851df.js"><link rel="prefetch" href="/assets/js/13.c15f7eee.js"><link rel="prefetch" href="/assets/js/130.b18bae91.js"><link rel="prefetch" href="/assets/js/131.6bf951f3.js"><link rel="prefetch" href="/assets/js/132.ba1447bf.js"><link rel="prefetch" href="/assets/js/133.f3cf482f.js"><link rel="prefetch" href="/assets/js/134.a7f9d276.js"><link rel="prefetch" href="/assets/js/135.c5711373.js"><link rel="prefetch" href="/assets/js/136.17877c2e.js"><link rel="prefetch" href="/assets/js/137.c500801a.js"><link rel="prefetch" href="/assets/js/138.94e0eb60.js"><link rel="prefetch" href="/assets/js/139.848ea0dd.js"><link rel="prefetch" href="/assets/js/14.e95e7183.js"><link rel="prefetch" href="/assets/js/140.a23e12c0.js"><link rel="prefetch" href="/assets/js/141.11b60c34.js"><link rel="prefetch" href="/assets/js/142.50938741.js"><link rel="prefetch" href="/assets/js/143.26dfcd9e.js"><link rel="prefetch" href="/assets/js/144.e7f47e00.js"><link rel="prefetch" href="/assets/js/145.e94f18d8.js"><link rel="prefetch" href="/assets/js/146.fa956501.js"><link rel="prefetch" href="/assets/js/147.20ef4693.js"><link rel="prefetch" href="/assets/js/148.47047248.js"><link rel="prefetch" href="/assets/js/149.273a6d22.js"><link rel="prefetch" href="/assets/js/15.6a8d2980.js"><link rel="prefetch" href="/assets/js/150.78b24e2a.js"><link rel="prefetch" href="/assets/js/16.a73347db.js"><link rel="prefetch" href="/assets/js/17.1fed3083.js"><link rel="prefetch" href="/assets/js/18.89432a01.js"><link rel="prefetch" href="/assets/js/19.ab4be550.js"><link rel="prefetch" href="/assets/js/20.a3ffc242.js"><link rel="prefetch" href="/assets/js/21.c9e2b772.js"><link rel="prefetch" href="/assets/js/22.24933ab9.js"><link rel="prefetch" href="/assets/js/23.e12a523b.js"><link rel="prefetch" href="/assets/js/24.20ddc420.js"><link rel="prefetch" href="/assets/js/25.a6da7d87.js"><link rel="prefetch" href="/assets/js/26.a9d704d0.js"><link rel="prefetch" href="/assets/js/27.bcc8207e.js"><link rel="prefetch" href="/assets/js/28.d34b0b94.js"><link rel="prefetch" href="/assets/js/29.f64a3b0d.js"><link rel="prefetch" href="/assets/js/3.2ead2ac8.js"><link rel="prefetch" href="/assets/js/30.c58fb139.js"><link rel="prefetch" href="/assets/js/31.5176cbd6.js"><link rel="prefetch" href="/assets/js/32.6f984b20.js"><link rel="prefetch" href="/assets/js/33.c52cc243.js"><link rel="prefetch" href="/assets/js/34.2301950a.js"><link rel="prefetch" href="/assets/js/35.59aff13a.js"><link rel="prefetch" href="/assets/js/36.be44a88b.js"><link rel="prefetch" href="/assets/js/37.51541bfb.js"><link rel="prefetch" href="/assets/js/38.34322281.js"><link rel="prefetch" href="/assets/js/39.778a9ac9.js"><link rel="prefetch" href="/assets/js/4.3fad1089.js"><link rel="prefetch" href="/assets/js/40.065f1d7f.js"><link rel="prefetch" href="/assets/js/41.c1df89aa.js"><link rel="prefetch" href="/assets/js/42.e28f3958.js"><link rel="prefetch" href="/assets/js/43.d1a4e2f5.js"><link rel="prefetch" href="/assets/js/44.07946160.js"><link rel="prefetch" href="/assets/js/45.261db7c1.js"><link rel="prefetch" href="/assets/js/46.68dd7ebc.js"><link rel="prefetch" href="/assets/js/47.6ddba031.js"><link rel="prefetch" href="/assets/js/48.a44dd332.js"><link rel="prefetch" href="/assets/js/49.150ce179.js"><link rel="prefetch" href="/assets/js/5.ef50e827.js"><link rel="prefetch" href="/assets/js/50.9093ca4f.js"><link rel="prefetch" href="/assets/js/51.615783a4.js"><link rel="prefetch" href="/assets/js/52.d8b9be33.js"><link rel="prefetch" href="/assets/js/53.1ff35abe.js"><link rel="prefetch" href="/assets/js/54.e94bfbfd.js"><link rel="prefetch" href="/assets/js/55.83bc9e19.js"><link rel="prefetch" href="/assets/js/56.4101382f.js"><link rel="prefetch" href="/assets/js/57.bf454b42.js"><link rel="prefetch" href="/assets/js/58.2636e755.js"><link rel="prefetch" href="/assets/js/59.2484001e.js"><link rel="prefetch" href="/assets/js/6.f2ff6c63.js"><link rel="prefetch" href="/assets/js/60.4d7205f6.js"><link rel="prefetch" href="/assets/js/61.b848f071.js"><link rel="prefetch" href="/assets/js/62.00f5fced.js"><link rel="prefetch" href="/assets/js/63.4035cbde.js"><link rel="prefetch" href="/assets/js/64.4acbf790.js"><link rel="prefetch" href="/assets/js/65.65f64452.js"><link rel="prefetch" href="/assets/js/66.9606b3e3.js"><link rel="prefetch" href="/assets/js/67.3a317ae6.js"><link rel="prefetch" href="/assets/js/68.2374ba12.js"><link rel="prefetch" href="/assets/js/69.085e0cc7.js"><link rel="prefetch" href="/assets/js/7.8b9b7a91.js"><link rel="prefetch" href="/assets/js/70.a65f45fa.js"><link rel="prefetch" href="/assets/js/71.59fba7c8.js"><link rel="prefetch" href="/assets/js/72.c2925a6a.js"><link rel="prefetch" href="/assets/js/73.b340a03e.js"><link rel="prefetch" href="/assets/js/74.c4c3f65c.js"><link rel="prefetch" href="/assets/js/76.878e916a.js"><link rel="prefetch" href="/assets/js/77.4327b629.js"><link rel="prefetch" href="/assets/js/78.ea674f9e.js"><link rel="prefetch" href="/assets/js/79.1d9f4ab3.js"><link rel="prefetch" href="/assets/js/8.a70b9b8f.js"><link rel="prefetch" href="/assets/js/80.3936f401.js"><link rel="prefetch" href="/assets/js/81.45fd6a95.js"><link rel="prefetch" href="/assets/js/82.ce48eb4d.js"><link rel="prefetch" href="/assets/js/83.15f2e7cb.js"><link rel="prefetch" href="/assets/js/84.fbb6f3b6.js"><link rel="prefetch" href="/assets/js/85.230d4496.js"><link rel="prefetch" href="/assets/js/86.632513d4.js"><link rel="prefetch" href="/assets/js/87.5c1d4ec8.js"><link rel="prefetch" href="/assets/js/88.96beca6c.js"><link rel="prefetch" href="/assets/js/89.c9f1ec20.js"><link rel="prefetch" href="/assets/js/9.5fe5c710.js"><link rel="prefetch" href="/assets/js/90.a8dc4c84.js"><link rel="prefetch" href="/assets/js/91.9f5451d4.js"><link rel="prefetch" href="/assets/js/92.4257589f.js"><link rel="prefetch" href="/assets/js/93.25c57580.js"><link rel="prefetch" href="/assets/js/94.8d85d934.js"><link rel="prefetch" href="/assets/js/95.abe2f5b4.js"><link rel="prefetch" href="/assets/js/96.fef0c8f2.js"><link rel="prefetch" href="/assets/js/97.d192dbc6.js"><link rel="prefetch" href="/assets/js/98.a7f643e6.js"><link rel="prefetch" href="/assets/js/99.69afcc55.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.d61d7785.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="../assets/logo.png" alt="个人主页" class="logo"> <span class="site-name can-hide">个人主页</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/react/" class="nav-link router-link-active">
+  react
+</a></div><div class="nav-item"><a href="/vue/" class="nav-link">
+  vue
+</a></div><div class="nav-item"><a href="/error.html" class="nav-link">
+  附录：错误码
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/react/" class="nav-link router-link-active">
+  react
+</a></div><div class="nav-item"><a href="/vue/" class="nav-link">
+  vue
+</a></div><div class="nav-item"><a href="/error.html" class="nav-link">
+  附录：错误码
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>文档介绍</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>react</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/react/" aria-current="page" class="sidebar-link">REACT 篇</a></li><li><a href="/react/mobx-react的使用.html" class="active sidebar-link">mob-react的使用</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/react/mobx-react的使用.html#使用注意" class="sidebar-link">使用注意</a></li><li class="sidebar-sub-header"><a href="/react/mobx-react的使用.html#状态管理" class="sidebar-link">状态管理</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/react/mobx-react的使用.html#创建state" class="sidebar-link">创建state</a></li><li class="sidebar-sub-header"><a href="/react/mobx-react的使用.html#获取state" class="sidebar-link">获取state</a></li></ul></li><li class="sidebar-sub-header"><a href="/react/mobx-react的使用.html#区别observer-useobserver-observer" class="sidebar-link">区别Observer, useObserver, observer</a></li><li class="sidebar-sub-header"><a href="/react/mobx-react的使用.html#实战例子" class="sidebar-link">实战例子</a></li></ul></li><li><a href="/react/mobx的学习与使用.html" class="sidebar-link">mobx的学习与使用</a></li><li><a href="/react/react-redux的学习与使用.html" class="sidebar-link">react-redux的学习与使用</a></li><li><a href="/react/react中关于state的不常用技巧.html" class="sidebar-link">react中关于state的不常用技巧</a></li><li><a href="/react/react中抽离公共逻辑复用的方式.html" class="sidebar-link">react中优雅抽离公共逻辑的方式</a></li><li><a href="/react/react中组件之间的相互通信.html" class="sidebar-link">react中组件相互通信的方式</a></li><li><a href="/react/react使用优化实践.html" class="sidebar-link">react使用优化实践</a></li><li><a href="/react/react全局方法使用.html" class="sidebar-link">react全局方法的使用</a></li><li><a href="/react/react函数编程hook基本用法.html" class="sidebar-link">react函数编程hook</a></li><li><a href="/react/react合成事件与原生事件.html" class="sidebar-link">react合成事件与原生事件</a></li><li><a href="/react/react生命周期.html" class="sidebar-link">react生命周期</a></li><li><a href="/react/react的diff过程.html" class="sidebar-link">react的diff过程</a></li><li><a href="/react/redux-saga的学习与使用.html" class="sidebar-link">react-saga的使用实践</a></li><li><a href="/react/redux与react-redux的使用实践.html" class="sidebar-link">redux与react-redux的使用实践</a></li><li><a href="/react/setState的实现原理.html" class="sidebar-link">setState的异步分析及实现原理</a></li><li><a href="/react/使用errorboundary优化错误处理.html" class="sidebar-link">关于errorboundary的使用</a></li><li><a href="/react/创建一个全局toast.html" class="sidebar-link">创建一个全局toast</a></li><li><a href="/react/对setState的理解.html" class="sidebar-link">对setState的理解</a></li><li><a href="/react/浅析react_fiber.html" class="sidebar-link">浅谈react-fiber</a></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>vue</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>前端杂记</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>js</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>构建工具篇-webpack等</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>flutter</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>H5开发汇总</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>web 安全</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>http 协议</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>node相关</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>pwa</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>浏览器原理&amp;性能优化</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>git</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>前端工程化</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>babel</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>3D探索</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="mob-react的使用"><a href="#mob-react的使用" class="header-anchor">#</a> mob-react的使用</h1> <h2 id="使用注意"><a href="#使用注意" class="header-anchor">#</a> 使用注意</h2> <ul><li>如果项目中存在class components就使用mobx-react@5</li> <li>如果项目中既有class components 和 hooks就使用mobx-react@6 (包含mobx-react-lite)</li> <li>如果项目中没有class components就使用mobx-react-lite</li></ul> <p><strong>note：</strong></p> <blockquote><p>The Provider/inject in mobx-react@6 has been migrated to React Context, however it might be removed in future versions completely. Consider using Context directly.</p></blockquote> <h2 id="状态管理"><a href="#状态管理" class="header-anchor">#</a> 状态管理</h2> <h3 id="创建state"><a href="#创建state" class="header-anchor">#</a> 创建state</h3> <div class="language- extra-class"><pre class="language-text"><code>import { observable } from 'mobx'
+import { useLocalStore } from 'mobx-react' // 6.x or mobx-react-lite@1.4.0
+function CreatingState() {
+  const simpleState = React.useRef(observable.array([1, 2, 3])).current
+  const localState = useLocalStore(() =&gt; ({
+    count: 0,
+    inc() {
+      localState.count += 1
+    },
+  }))
+  return &lt;Rendering simple={simpleState}  local={localState} /&gt;
+}
+</code></pre></div><h3 id="获取state"><a href="#获取state" class="header-anchor">#</a> 获取state</h3> <p><strong>方式一：</strong> 创建state，通过useReducer
+<strong>方式二：</strong> 创建state，通过props传递
+<strong>方式三：</strong> 全局创建，然后在需要使用的地方import
+<strong>方式四：</strong> 使用React.context</p> <p><strong>useLocalStore</strong></p> <p>在组件内部可以使用useLocalStore创建局部的可观测的state（useLocalStore也可用与创建全局state）</p> <div class="language- extra-class"><pre class="language-text"><code>import React from 'react'
+import { useLocalStore, useObserver } from 'mobx-react' // 6.x
+
+export const SmartTodo = () =&gt; {
+  const todo = useLocalStore(() =&gt; ({
+    title: 'Click to toggle',
+    done: false,
+    toggle() {
+      todo.done = !todo.done
+    },
+    get emoji() {
+      return todo.done ? '😜' : '🏃'
+    },
+  }))
+
+  return useObserver(() =&gt; (
+    &lt;h3 onClick={todo.toggle}&gt;
+      {todo.title} {todo.emoji}
+    &lt;/h3&gt;
+  ))
+}
+</code></pre></div><h2 id="区别observer-useobserver-observer"><a href="#区别observer-useobserver-observer" class="header-anchor">#</a> 区别Observer, useObserver, observer</h2> <p>没什么本质区别，只是写法不一样（Observer, useObserver只能在组件内部使用）</p> <div class="language- extra-class"><pre class="language-text"><code>import { observable } from 'mobx'
+import { Observer, useObserver, observer } from 'mobx-react' // 6.x or mobx-react-lite@1.4.0
+import ReactDOM from 'react-dom'
+
+const person = observable({
+  name: 'John',
+})
+
+// named function is optional (for debugging purposes)
+const P1 = observer(function P1({ person }) {
+  return &lt;h1&gt;{person.name}&lt;/h1&gt;
+})
+
+const P2 = ({ person }) =&gt; &lt;Observer&gt;{() =&gt; &lt;h1&gt;{person.name}&lt;/h1&gt;}&lt;/Observer&gt;
+
+const P3 = ({ person }) =&gt; {
+  return useObserver(() =&gt; &lt;h1&gt;{person.name}&lt;/h1&gt;)
+}
+
+ReactDOM.render(
+  &lt;div&gt;
+    &lt;P1 person={person} /&gt;
+    &lt;P2 person={person} /&gt;
+    &lt;P3 person={person} /&gt;
+  &lt;/div&gt;,
+)
+
+setTimeout(() =&gt; {
+  person.name = 'Jane'
+}, 1000)
+</code></pre></div><h2 id="实战例子"><a href="#实战例子" class="header-anchor">#</a> 实战例子</h2> <ol><li>创建一个store [counter_store.tsx]</li></ol> <div class="language- extra-class"><pre class="language-text"><code>import { observable, action, computed } from 'mobx';
+export class CounterStore {
+  @observable 
+  count = 0;
+
+  @action
+  increment() {
+    this.count++:
+  }
+
+  @action 
+  decrement() {
+    this.count--;
+  }
+
+  @computed
+  get doubleCount() {
+    return this.count *2;
+  }
+}
+</code></pre></div><ol start="2"><li>然后在全局context上注册store [store.tsx]</li></ol> <div class="language- extra-class"><pre class="language-text"><code>import React from 'react';
+import { CounterStore } from &quot;./counter_store&quot;;
+
+export const storeContext = React.createContext({
+  counterStore: new CounterStore()
+})
+
+export const useStores = () =&gt; React.useContext(storeContext);
+</code></pre></div><ol start="3"><li>然后在组件中使用这个context</li></ol> <div class="language- extra-class"><pre class="language-text"><code>import React from &quot;react&quot;;
+import { observer } from &quot;mobx-react&quot;;
+import { useStores } from &quot;../store&quot;;
+
+export const Counter = observer(() =&gt; {
+  const { counterStore } = useStores();
+  return (
+    &lt;&gt;
+      &lt;div&gt;{counterStore.count}&lt;/div&gt;
+      &lt;button onClick={() =&gt; counterStore.increment()}&gt;++&lt;/button&gt;
+      &lt;button onClick={() =&gt; counterStore.decrement()}&gt;--&lt;/button&gt;
+    &lt;/&gt;
+  );
+});
+</code></pre></div><p><a href="https://codesandbox.io/s/mobx-reactpeihecontextdeshiyongfangfa-1hol6?file=/src/component/friend_make.tsx" target="_blank" rel="noopener noreferrer">实践例子<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a>，<a href="https://mobx-react.js.org/recipes-migration" target="_blank" rel="noopener noreferrer">mobx-react教程<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></p></div> <footer class="page-edit"><!----> <div class="last-updated"><span class="prefix">Last Updated:</span> <span class="time">5/20/2020, 2:43:32 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/react/" class="prev router-link-active">
+        REACT 篇
+      </a></span> <span class="next"><a href="/react/mobx的学习与使用.html">
+        mobx的学习与使用
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/assets/js/app.a6319c82.js" defer></script><script src="/assets/js/2.32b4f8de.js" defer></script><script src="/assets/js/75.3ab8205c.js" defer></script>
+  </body>
+</html>
